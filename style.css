@@ -164,22 +164,31 @@ nav {
     justify-content: center;
 }
 
+#test-quote {
+    max-width: 750px;
+}
+
 #quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
-    width: 55%;
 }
 
 #author {
+    display:flex;
     font-weight: bold;
-    width: 60%;
-    text-align: right;
-    margin-right: 150px;
+    align-items: right;
+    justify-content: right;
     font-size: 24px;
 }
 
 #sign-up {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up-box {
     margin: 100px 200px 100px 200px;
     height: 150px;
     background: #3882F6;
@@ -188,6 +197,8 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 15px 50px 15px 50px;
+    max-width: 1000px;
+    width: 60%;
 }
 
 #sign-up-action {
@@ -222,5 +233,11 @@ nav {
 }
 
 #footer {
-    
+    display:flex;
+    background: #1F2937;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-weight: 300;
 }
