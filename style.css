@@ -99,7 +99,7 @@ nav {
 #splash-button {
     border-style: none;
     border-radius: 7px;
-    color: #E5E7EB;
+    color: #F9FAF8;
     background: #3882F6;
     height:35px;
     width:125px;
@@ -111,6 +111,7 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 50px;
+    height:425px;
 }
 
 #gallery-header {
@@ -152,4 +153,70 @@ nav {
     width: 150px;
     margin-left: 18px;
     margin-right: 18px;
+}
+
+#testimonial {
+    display:flex;
+    flex-direction: column;
+    height: 400px;
+    background: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    width: 55%;
+}
+
+#author {
+    font-weight: bold;
+    width: 60%;
+    text-align: right;
+    margin-right: 150px;
+    font-size: 24px;
+}
+
+#sign-up {
+    margin: 100px 200px 100px 200px;
+    height: 150px;
+    background: #3882F6;
+    border-radius: 7px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 50px 15px 50px;
+}
+
+#sign-up-action {
+    flex: 3;
+}
+
+#sign-up-action h1 {
+    color:#F9FAF8;
+    margin: 0 auto;
+}
+
+#sign-up-action p {
+    color:#F9FAF8;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+#sign-up-button {
+    text-align: right;
+    flex:1;
+}
+
+#sign-up-button button {
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 7px;
+    color: #F9FAF8;
+    background: #3882F6;
+    height:35px;
+    width:125px;
+    font-weight: 800;
 }
