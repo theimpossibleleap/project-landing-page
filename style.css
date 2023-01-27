@@ -60,7 +60,6 @@ nav {
 
 #splash-box {
     display:flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 80%;
@@ -68,10 +67,17 @@ nav {
 }
 
 #box-left {
+    height:250px;
+    align-items: center;
+    display:flex;
     flex: 1;
 }
 
 #box-right {
+    height:250px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
     flex: 1;
 }
 
